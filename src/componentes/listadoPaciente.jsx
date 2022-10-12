@@ -1,10 +1,9 @@
-function listadoPaciente(){
+function ListadoPaciente(){
     return (
-        <div class="col-md-6">
-            <h2 id="administra" class="mb-4">Administra tus Citas</h2>
-            <ul id="citas" class="list-group lista-citas"></ul>
-        </div>
+        <h2>
+            Este es un listado de pacientes
+        </h2>
     )
 }
 
-export default listadoPaciente(); 
+export default ListadoPaciente; 
